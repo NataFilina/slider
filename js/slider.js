@@ -1,5 +1,7 @@
 $('.center').slick({
     centerMode: true,
+    dots: true,
+    dotsClass: "my-dots",
     centerPadding: '60px',
     slidesToShow: 3,
     responsive: [
@@ -23,3 +25,4 @@ $('.center').slick({
       }
     ]
   });
+
